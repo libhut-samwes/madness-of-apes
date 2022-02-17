@@ -1,10 +1,14 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react';
+import { urbitVisor } from '@dcspark/uv-core';
+import Header from './components/Header';
 import './App.css'
+
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Testing</h1>
+			<Header />
+			
 		</div>
 	); 
 }
